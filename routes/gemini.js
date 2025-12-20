@@ -3,6 +3,6 @@ import { generateAnswer } from "../controller/gemini.js";
 
 const gemini = express.Router();
 
-gemini.post("/generate-answer", generateAnswer);
+gemini.post("/gupload-json", generateAnswer);
 
 export default gemini;
